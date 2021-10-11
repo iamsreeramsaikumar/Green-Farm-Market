@@ -1,0 +1,151 @@
+ /* Responsive 
+@media (min-width: 0px) and (max-width:0px){
+
+} */
+
+ @media (min-width: 0px) and (max-width: 500px) {
+     .hrow {
+         width: 100%;
+         background: #f78351;
+         margin: 0;
+         padding: 0;
+     }
+     .hrow>.right {
+         display: none;
+     }
+     .hrow>.left>ul>li>select {
+         background-color: #f78351;
+     }
+     .hrow>.left>ul>li {
+         display: inline;
+     }
+     .menuitems {
+         display: none;
+     }
+     .imageslides {
+         margin-top: 190px !important;
+     }
+     .brand>.loco>ul>li>img {
+         width: 14px;
+         position: relative;
+         top: -2px;
+         left: 2px;
+     }
+     .brand>.loco>ul>li>.lok {
+         width: 19px;
+     }
+     .brand>.loco>ul>li>.badge {
+         font-size: 9px;
+         border-radius: 20px;
+         position: relative;
+         right: 8px;
+     }
+     .brand>.loco {
+         position: relative;
+         left: -5px;
+         top: -7px;
+     }
+     marquee {
+         font-size: 14px;
+         line-height: 54px;
+         height: 54px;
+     }
+     .carousel-2>.row>.col-6>h3 {
+         font-size: 16px;
+     }
+     .cd-1>select {
+         padding: 3px 16px 3px 3px;
+     }
+     .cd-1 {
+         padding: 10px 0px;
+     }
+     .cd-1>.heart {
+         position: relative;
+         left: 82px;
+     }
+     .col-md-2>ul>li>a>img {
+         width: 52%;
+     }
+     .footer {
+         background: #eac986;
+     }
+     .copyR {
+         /* background: #c3a15d; */
+         background-color: #eac986;
+         display: none;
+     }
+     .footer>h4 {
+         font-size: 12px;
+         position: relative;
+         left: 23%;
+         font-weight: 600;
+     }
+     .carousel-2>.row>.col-6>h3 {
+         font-size: 12px;
+     }
+     .carousel-2>.row>.col-6>.view {
+         position: relative;
+         bottom: 46px;
+         left: 63px;
+         font-size: 12px;
+     }
+     .carousel-2>.row>.col-6>.view1 {
+         position: relative;
+         bottom: 28px;
+         font-size: 5px;
+         left: 1px;
+     }
+     .cd-1>.heart {
+         width: 15px;
+     }
+     .carousel-indicators {
+         z-index: 0;
+     }
+     .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+         z-index: 0;
+     }
+     .carousel-control-next {
+         right: 0;
+         z-index: 0;
+     }
+     .carousel-control-next-icon, .carousel-control-prev-icon {
+         z-index: 0;
+     }
+     .carousel-indicators li {
+         width: 10px;
+         height: 7px;
+     }
+     li.contact {
+         position: relative;
+         left: -66px;
+     }
+     .brand>.loco>ul>li {
+         font-size: 13px;
+     }
+     li.email {
+         position: relative;
+         top: -18px;
+         right: -105px;
+     }
+     li.location {
+         position: relative;
+         top: -5px;
+         left: -66px;
+     }
+     .carousel-2>.row>.col-6>a:focus {
+         /* outline: none; */
+         box-shadow: none;
+     }
+     .cd-1>.vegiTitle {
+        padding: 0px 23px;
+    }
+    .card>.simla {
+        padding: 4px 10px 6px 8px;
+    }
+ }
+
+ @media (min-width: 500px) and (max-width: 1440px) {
+     .footer>h4 {
+         display: none;
+     }
+ }
